@@ -1,0 +1,15 @@
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.csproj.AssemblyReference.cache
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\App.g.cs
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator_MarkupCompile.cache
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\bin\Debug\WPFCalculator.exe.config
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\bin\Debug\WPFCalculator.exe
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\bin\Debug\WPFCalculator.pdb
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\MainWindow.baml
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.g.resources
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.Properties.Resources.resources
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.csproj.GenerateResource.cache
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.csproj.CoreCompileInputs.cache
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.exe
+C:\Users\uzivatel 1\RiderProjects\WPFCalculator\WPFCalculator\obj\Debug\WPFCalculator.pdb
