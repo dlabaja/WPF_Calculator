@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="WPF Calculator" Height="985" Width="546">
+        Title="WPF Calculator" Height="985" Width="546" Tag="">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="32" />
@@ -26,47 +26,49 @@
         <Style TargetType="TextBox">
             <Setter Property="Width" Value="536"></Setter>
             <Setter Property="Height" Value="100"></Setter>
-            <Setter Property="FontSize" Value="72"></Setter>
+            <Setter Property="FontSize" Value="36"></Setter>
             <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
         </Style>
     </Window.Resources>
     <WrapPanel>
         <WrapPanel>
-            <TextBox></TextBox>
-            <TextBox></TextBox>
+            <TextBox Name="Input" Tag=""></TextBox>
+            <TextBox Name="Output" TextAlignment="Right" Tag=""></TextBox>
         </WrapPanel>
-        <Button Click="WriteConstant">x²</Button>
-        <Button Click="WriteConstant">√x</Button>
-        <Button Click="WriteConstant">log</Button>
-        <Button Click="WriteConstant">ln</Button>
-        <Button Click="WriteConstant">abs</Button>
-        <Button Click="WriteConstant">sin</Button>
-        <Button Click="WriteConstant">cos</Button>
-        <Button Click="WriteConstant">tg</Button>
-        <Button Click="WriteConstant">cotg</Button>
-        <Button Click="WriteToInput">%</Button>
-        <Button Click="WriteConstant">π</Button>
-        <Button Click="WriteConstant">e</Button>
-        <Button Click="WriteToInput">(</Button>
-        <Button Click="WriteToInput">)</Button>
+        <Button Click="WriteFuncConst" Tag="pow(">x²</Button>
+        <Button Click="WriteFuncConst" Tag="sqrt(">√x</Button>
+        <Button Click="WriteFuncConst" Tag="log(">log</Button>
+        <Button Click="WriteFuncConst" Tag="ln(">ln</Button>
+        <Button Click="WriteFuncConst" Tag="abs(">abs</Button>
+        <Button Click="WriteFuncConst" Tag="sin(">sin</Button>
+        <Button Click="WriteFuncConst" Tag="cos(">cos</Button>
+        <Button Click="WriteFuncConst" Tag="tg(">tg</Button>
+        <Button Click="WriteFuncConst" Tag="cotg">cotg</Button>
+        <Button Click="WriteOperator" Tag="%">%</Button>
+        <Button Click="WriteFuncConst" Tag="π">π</Button>
+        <Button Click="WriteFuncConst" Tag="e">e</Button>
+        <Button Click="WriteAnything" Tag="(">(</Button>
+        <Button Click="WriteAnything" Tag=")">)</Button>
         <Button Click="ClearInput">C</Button>
-        <Button Click="WriteDigit">7</Button>
-        <Button Click="WriteDigit">8</Button>
-        <Button Click="WriteDigit">9</Button>
+        <Button Click="WriteAnything" Tag="7">7</Button>
+        <Button Click="WriteAnything" Tag="8">8</Button>
+        <Button Click="WriteAnything" Tag="9">9</Button>
         <Button Click="DeleteChar" Style="{StaticResource WideButton}">&#8592;</Button>
-        <Button Click="WriteDigit">4</Button>
-        <Button Click="WriteDigit">5</Button>
-        <Button Click="WriteDigit">6</Button>
-        <Button Click="WriteSymbol">*</Button>
-        <Button Click="WriteSymbol">/</Button>
-        <Button Click="WriteDigit">1</Button>
-        <Button Click="WriteDigit">2</Button>
-        <Button Click="WriteDigit">3</Button>
-        <Button Click="WriteSymbol">+</Button>
-        <Button Click="WriteSymbol">-</Button>
-        <Button Click="WriteDigit">0</Button>
-        <Button Click="WriteSymbol">.</Button>
-        <Button Click="WriteConstant">Ans</Button>
+        <Button Click="WriteAnything" Tag="4">4</Button>
+        <Button Click="WriteAnything" Tag="5">5</Button>
+        <Button Click="WriteAnything" Tag="6">6</Button>
+        <Button Click="WriteOperator" Tag="*">*</Button>
+        <Button Click="WriteOperator" Tag="/">/</Button>
+        <Button Click="WriteAnything" Tag="1">1</Button>
+        <Button Click="WriteAnything" Tag="2">2</Button>
+        <Button Click="WriteAnything" Tag="3">3</Button>
+        <Button Click="WriteOperator" Tag="+">+</Button>
+        <Button Click="WriteOperator" Tag="-">-</Button>
+        <Button Click="WriteAnything" Tag="0">0</Button>
+        <Button Click="WriteDecimalPoint">.</Button>
+        <Button Click="WriteFuncConst" Tag="Ans">Ans</Button>
         <Button Click="SendToServer" Style="{StaticResource WideButton}">=</Button>
     </WrapPanel>
 </Window>
