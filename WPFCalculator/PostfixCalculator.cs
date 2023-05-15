@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace WPFCalculator
+namespace PostfixCalculator
 {
 	public class PostfixCalculator
 	{
@@ -43,7 +43,7 @@ namespace WPFCalculator
 			},
 			{"sin", () => Math.Sin(_buffer.Pop())},
 			{"cos", () => Math.Cos(_buffer.Pop())},
-			{"tg", () => Math.Sin(_buffer.Pop())},
+			{"tg", () => Math.Tan(_buffer.Pop())},
 			{
 				"cotg", () =>
 				{
