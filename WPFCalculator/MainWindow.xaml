@@ -45,7 +45,7 @@
         <Button Click="WriteFuncConst" Tag="sin(">sin</Button>
         <Button Click="WriteFuncConst" Tag="cos(">cos</Button>
         <Button Click="WriteFuncConst" Tag="tg(">tg</Button>
-        <Button Click="WriteFuncConst" Tag="cotg">cotg</Button>
+        <Button Click="WriteFuncConst" Tag="cotg(">cotg</Button>
         <Button Click="WriteOperator" Tag="%">%</Button>
         <Button Click="WriteFuncConst" Tag="π">π</Button>
         <Button Click="WriteFuncConst" Tag="e">e</Button>
