@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace PostfixCalculator
+namespace WPFCalculator
 {
-	public class WPFCalculator
+	public class PostfixCalculator
 	{
 		private readonly Stack<double> _buffer = new Stack<double>();
 		private Dictionary<string, Func<double>> _operations;
