@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace PostfixCalculator
 {
-	public class PostfixCalculator
+	public class WPFCalculator
 	{
 		private readonly Stack<double> _buffer = new Stack<double>();
 		private Dictionary<string, Func<double>> _operations;
