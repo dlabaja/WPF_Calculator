@@ -108,6 +108,8 @@ namespace WPFCalculator
 
 		public IEnumerable<dynamic> InfixToPostfix(StringBuilder infix)
 		{
+			if (string.IsNullOrEmpty(infix.ToString())) throw new Exception("Empty expression");
+		
 			InitDict();
 			var postfix = new List<dynamic>();
 			var stack = new Stack<string>();
